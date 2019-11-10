@@ -16,6 +16,7 @@ services:
       LEVEL_TYPE: LARGEBIOMES
       MAX_PLAYERS: 7
       CONSOLE: "true"
+      ONLINE_MODE: "false"
     image: itzg/minecraft-server
     restart: always
   rcon:
