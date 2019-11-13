@@ -17,6 +17,7 @@ services:
       MAX_PLAYERS: 7
       CONSOLE: "true"
       ONLINE_MODE: "false"
+      OPS: "trashcoder96"
     image: itzg/minecraft-server
     restart: always
   rcon:
