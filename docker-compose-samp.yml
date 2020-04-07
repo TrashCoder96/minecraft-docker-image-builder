@@ -5,7 +5,5 @@ services:
     image: pyrax/samp
     ports: 
         - "7777:7777"
-    volumes:
-        - "smp:/data"
     environment:
         SAMP_RCON_PASSWORD: "12345"
