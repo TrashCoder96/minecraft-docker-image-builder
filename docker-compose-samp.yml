@@ -6,6 +6,6 @@ services:
     ports: 
         - "7777:7777"
     volumes:
-        - "samp:/data"
+        - "smp:/data"
     environment:
         SAMP_RCON_PASSWORD: "12345"
