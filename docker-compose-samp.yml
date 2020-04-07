@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  samp:
+    image: pyrax/samp
+    ports: 
+        - "7777:7777"
+    volumes:
+        - "samp:/data"
+    environment:
+        SAMP_RCON_PASSWORD: "12345"
