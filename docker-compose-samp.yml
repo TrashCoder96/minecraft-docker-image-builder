@@ -4,6 +4,6 @@ services:
   samp:
     image: pyrax/samp:0.3.7r2-2
     ports: 
-        - "7777:7777"
+        - "7777:7777/udp"
     environment:
         SAMP_RCON_PASSWORD: "12345"
