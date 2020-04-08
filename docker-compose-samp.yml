@@ -2,7 +2,7 @@ version: '3'
 
 services:
   samp:
-    image: pyrax/samp
+    image: pyrax/samp:0.3.7r2-2
     ports: 
         - "7777:7777"
     environment:
